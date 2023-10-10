@@ -1,0 +1,12 @@
+.main{
+  background: rgba(37, 43, 73, 0.8) url('/src/images/main/landing_image.png') no-repeat;
+  background-blend-mode: overlay;
+  background-size: 100% 100%;
+}
+
+.modifier-main{
+  display: $d-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
