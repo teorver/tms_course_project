@@ -1,6 +1,7 @@
 .main{
-  background: rgba(37, 43, 73, 0.8) url('/src/images/main/landing_image.png') no-repeat;
+  background-image:  url('/src/images/main/landing_image.png');
   background-blend-mode: overlay;
+  background-color: rgb(37, 43, 73);
   background-size: 100% 100%;
 }
 
@@ -9,4 +10,46 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.main-title{
+  display: flex;
+  text-align: center;
+  max-width: 100%;
+  margin: 230px 0 32px 0;
+  color: $text-white;
+  font-size: 64px;
+  font-weight: 900;
+
+  @media (max-width: 1200px) {
+    max-width: 100%;
+    margin: 257px 0 62px 0;
+    font-size: 48px;
+  }
+}
+
+.main-text{
+  max-width: 100%;
+  font-size: $text-24px;
+  font-weight: 400;
+  display: flex;
+  text-align: center;
+  color: $text-white;
+  margin-bottom: 80px;
+
+  @media (max-width: 1200px) {
+    max-width: 100%;
+    margin-bottom: 89px;
+    font-size: $text-font;
+  }
+}
+
+.main-button{
+  @extend %btn;
+  margin: 0 auto 50px;
+
+  @media (max-width: 1200px) {
+    width: calc(100% - 68.55%);
+    margin: 0 auto 126px;
+  }
 }
