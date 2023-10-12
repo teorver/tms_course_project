@@ -7,3 +7,38 @@
   color: $text-white;
   padding: 30px 0 30px 0;
 }
+
+%text-header{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: $text-24px;
+  font-weight: 900;
+  padding: 21px 0;
+  color: $header__text-black;
+}
+
+%text-description{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: $text-font;
+  font-weight: 400;
+  color: $text-grey;
+}
+
+%footer__text-header{
+  width: 370px;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+
+%footer__text-description{
+  width: 370px;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
