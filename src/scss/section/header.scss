@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+
 }
 
 .header-section{
@@ -9,14 +10,17 @@
   justify-content: space-between;
   padding: 39px 10px 36px 10px;
   border-bottom: 1px solid #BABBC5;
-  position: absolute;
+  position: fixed;
+  top: 0;
   width: 1170px;
-
-  @media (max-width: 1200px) {
-    align-items: center;
-    width: 95%;
-  }
+  z-index: 3;
+  background-color: transparent;
 }
+
+//.header-section.hide {
+//  transform: translateY(-50px);
+//  background-color: red; /* Set the background color you desire when the header is hidden */
+//}
 
 .navigation-bar{
   display: $d-flex;
@@ -34,11 +38,4 @@
   font-weight: 700;
   color: $text-white;
   align-items: center;
-
-  @media (max-width: 1200px) {
-    align-items: center;
-    width: 100%;
-    font-size: 12px;
-    text-align: center;
-  }
 }
