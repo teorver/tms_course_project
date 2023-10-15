@@ -5,12 +5,25 @@
   justify-content: center;
   background: $btn__job-background;
   color: $text-white;
-  padding: 30px 0 30px 0;
+  padding: 30px 0;
   margin: 0 auto 50px;
 
   @media (max-width: 1200px) {
-    width: calc(100% - 68.55%);
+    width: 314px;
     margin: 0 auto 126px;
+    padding: 25.5px 0;
+  }
+
+  @media (max-width: 840px) {
+    width: 300px;
+    margin: 0 auto 80px;
+    padding: 20.5px 0;
+  }
+
+  @media (max-width: 450px) {
+    width: 280px;
+    margin: 0 auto 52px;
+    padding: 15.5px 0;
   }
 }
 
@@ -31,6 +44,21 @@
   font-weight: 900;
   padding: 21px 0;
   color: $header__text-black;
+
+  @media (max-width: 1200px) {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  @media (max-width: 840px) {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  @media (max-width: 450px) {
+    font-size: 18px;
+    width: 100%;
+  }
 }
 
 %text-description{
@@ -40,6 +68,21 @@
   font-size: $text-font;
   font-weight: 400;
   color: $text-grey;
+
+  @media (max-width: 1200px) {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  @media (max-width: 840px) {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  @media (max-width: 450px) {
+    font-size: 14px;
+    width: 100%;
+  }
 }
 
 %footer__text-header{
@@ -48,6 +91,27 @@
   font-size: 18px;
   font-weight: 700;
   text-align: center;
+
+  @media (max-width: 1200px) {
+    width: 100%;
+    font-size: 14px;
+    padding: 0 20px;
+  }
+
+  @media (max-width: 930px) {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  @media  (max-width: 775px) {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  @media (max-width: 450px) {
+    width: 100%;
+    font-size: 14px;
+  }
 }
 
 %footer__text-description{
@@ -56,4 +120,24 @@
   font-size: 18px;
   font-weight: 400;
   text-align: center;
+
+  @media (max-width: 1200px) {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  @media (max-width: 930px) {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  @media  (max-width: 775px) {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  @media (max-width: 450px) {
+    width: 100%;
+    font-size: 14px;
+  }
 }
