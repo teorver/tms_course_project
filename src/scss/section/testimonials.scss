@@ -46,7 +46,7 @@
 
 .swiper-pagination-bullet{
   border-radius: 14px;
-  border: 1px solid #7E5D6F;
+  border: 3px solid #7E5D6F;
   background-color: white;
   width: 14px;
   height: 14px;
@@ -79,8 +79,6 @@
 .swiper-pagination-bullet-active{
   background-color: #7E5D6F;
 }
-
-.swiper-slide{}
 
 .testimonial-item{
   display: flex;
