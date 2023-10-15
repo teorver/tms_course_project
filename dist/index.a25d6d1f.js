@@ -1,1 +1,0 @@
-$(function(){$(document).scroll(function(){let l=$("header"),e=$(".header__container");l.toggleClass("scrolled",$(this).scrollTop()>l.height()),e.toggleClass("scrolled-border",$(this).scrollTop()>l.height())})});
