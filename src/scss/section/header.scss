@@ -97,20 +97,42 @@
   display: none;
   cursor: pointer;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  padding: 0 15px;
 }
 
 .burger-icon {
-  width: 30px;
+  width: 35px;
   height: 3px;
   background-color: $text-white;
-  margin: 6px 0;
+  margin: 2px 0;
+  border-radius: 3px;
+  transition: 0.7s;
 }
 
-
-
 @media (max-width: 750px) {
+  .header__container{
+    transition: 0.7s;
+  }
+
   .burger-menu {
-    display: block;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .open-menu{
+    .line-1{
+      transform: translate(-50%, -50%) rotate(45deg);
+    }
+
+    .line-2{
+      opacity: 0;
+    }
+
+    .line-3 {
+      transform: translate(-50%, -50%) rotate(-45deg);
+      display: flex;
+      position: absolute;
+    }
   }
 
   .navigation {
@@ -137,6 +159,7 @@
     top: 100%;
     left: 0;
     width: 100%;
+    padding: 23px 0;
   }
 
   .tab__element{
