@@ -18,6 +18,10 @@
 .navigation {
   display: flex;
   padding: 43px 0 42px;
+
+  @media (max-width: 930px) {
+    width: 60%;
+  }
 }
 
 .tab__element {
@@ -31,6 +35,11 @@
   text-transform: uppercase;
   transition: 0.3s;
   position: relative;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+  @media (max-width: 930px) {
+    width: 100%;
+  }
 }
 
 .tab__element::after {
@@ -40,6 +49,11 @@
   height: 3px;
   bottom: -40;
   transition: 0.3s;
+  
+  @media (max-width: 750px) {
+    width: 100px;
+    bottom: -10;
+  }
 }
 
 .tab__element:hover::after {
@@ -68,7 +82,7 @@
   margin: 6px 0;
 }
 
-@media (max-width: 840px) {
+@media (max-width: 750px) {
   .burger-menu {
     display: block;
   }
