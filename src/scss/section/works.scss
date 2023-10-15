@@ -86,10 +86,12 @@
 
 .grid-worker:hover .worker-info {
   display: flex;
+  //cursor: pointer;
 }
 
 .worker-info:active{
   background: rgba(185, 12, 12, 0.80);
+  cursor: default;
 }
 
 .info-header{

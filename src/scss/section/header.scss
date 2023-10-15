@@ -71,6 +71,19 @@
   }
 }
 
+.tab__element:active{
+  color: #E71414;
+}
+
+.tab__element:hover:active::after{
+  background-color: #E71414;
+
+  @media (max-width: 1200px) {
+    height: 0;
+    background: none;
+  }
+}
+
 .scrolled {
   background-color: #2c3154;
   border-bottom: 1px solid $text-white;
