@@ -3,6 +3,12 @@
   grid-template-columns: repeat(auto-fit, minmax(227px, 270px));
   padding-bottom: 114px;
   gap: 30px;
+
+  @media (max-width: 1200px) {
+    gap: 20px;
+    padding-bottom: 78px;
+    justify-content: center;
+  }
 }
 
 .team-cell{
@@ -13,6 +19,11 @@
 
 .team-img{
   padding-bottom: 30px;
+
+  @media (max-width: 1200px) {
+    width: 100%;
+    padding-bottom: 22px;
+  }
 }
 
 .user-info{
@@ -25,6 +36,11 @@
   font-size: 24px;
   font-weight: 700;
   padding-bottom: 5px;
+
+  @media (max-width: 1200px) {
+    font-size: 18px;
+    padding-bottom: 4px;
+  }
 }
 
 .user-title{
@@ -32,6 +48,12 @@
   font-size: 18px;
   font-weight: 400;
   padding-bottom: 18px;
+
+  @media (max-width: 1200px) {
+    font-size: 14px;
+    padding-bottom: 22px;
+    width: 100%;
+  }
 }
 
 .user-description{
@@ -39,9 +61,26 @@
   font-size: 18px;
   font-weight: 400;
   padding-bottom: 38px;
+
+  @media (max-width: 1200px) {
+    font-size: 14px;
+    padding-bottom: 39px;
+    width: 100%;
+  }
 }
 
 .user-socials{
   display: flex;
   gap: 6px;
+
+  @media (max-width: 1200px) {
+    gap: 12px;
+  }
+}
+
+.user-link{
+  @media (max-width: 1200px) {
+    width: 32px;
+    height: 32px;
+  }
 }
