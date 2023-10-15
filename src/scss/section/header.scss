@@ -24,9 +24,10 @@
   }
 }
 
-.nav-menu{
-  display: flex;
-  flex-direction: row;
+.nav-img.active {
+  height: auto;
+  background-blend-mode: overlay;
+  background: url("/src/images/img.png") no-repeat 100% 100% / cover;
 }
 
 .tab__element {
