@@ -47,11 +47,12 @@
   border: 2px solid #FFF;
   overflow: hidden;
   position: relative;
-  transition: transform 0.3s;
+  transition: transform 0.9s;
 }
 
 .img{
   //width: -webkit-fill-available;
+  display: block;
   width: 100%;
   height: auto;
 }
@@ -70,6 +71,7 @@
   text-align: center;
   gap: 20px;
   box-sizing: border-box;
+
 
   @media (max-width: 1200px) {
     gap: 0;
